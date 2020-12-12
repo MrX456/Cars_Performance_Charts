@@ -1,4 +1,4 @@
-<div align="center"># Cars Perfomance Charts</div>
+<div align="center"><h1>Cars Perfomance Charts</h1></div>
 
 <p align="center">
   <img src="icon.png">
