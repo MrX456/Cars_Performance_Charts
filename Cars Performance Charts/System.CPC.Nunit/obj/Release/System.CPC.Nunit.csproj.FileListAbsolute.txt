@@ -1,0 +1,19 @@
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\CarDAO.orderedtest
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\ControllerCar.orderedtest
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\Engine Statistics.orderedtest
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\General Statistics.orderedtest
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\Power Statistics.orderedtest
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\Speed Statistics.orderedtest
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\Torque Statistcs.orderedtest
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Nunit.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Nunit.pdb
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Connection.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Controller.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Model.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.Data.SQLite.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Connection.pdb
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Controller.pdb
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\bin\Release\System.CPC.Model.pdb
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\obj\Release\System.CPC.Nunit.csprojResolveAssemblyReference.cache
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\obj\Release\System.CPC.Nunit.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\obj\Release\System.CPC.Nunit.pdb

@@ -1,0 +1,4 @@
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Misc\bin\Release\System.CPC.Misc.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Misc\bin\Release\System.CPC.Misc.pdb
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Misc\obj\Release\System.CPC.Misc.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Misc\obj\Release\System.CPC.Misc.pdb

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a1123288-e92a-447c-a7be-2c0021f2b52d" name="Junior@DESKTOP-EI0OP3O 2020-12-09 13:07:29" runUser="DESKTOP-EI0OP3O\Junior" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9129a168-b39a-40fb-acff-3718f31d7bae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Junior_DESKTOP-EI0OP3O 2020-12-09 13_07_29">
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\_Dependencies\System.Data.SQLite.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Controller\bin\Debug\System.CPC.Controller.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.CPC.Connection.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Model\bin\Debug\System.CPC.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2020-12-09T13:07:29.1126029-03:00" queuing="2020-12-09T13:07:30.5167554-03:00" start="2020-12-09T13:07:30.5287634-03:00" finish="2020-12-09T13:07:31.2243832-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TopFiveCarCountriesTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="b596147e-e03c-3b7e-36ca-029cfb1232f3">
+      <Execution id="197f3575-f610-486a-a583-7c27358092b5" />
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TopFiveCarCountriesTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b596147e-e03c-3b7e-36ca-029cfb1232f3" executionId="197f3575-f610-486a-a583-7c27358092b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="197f3575-f610-486a-a583-7c27358092b5" testId="b596147e-e03c-3b7e-36ca-029cfb1232f3" testName="TopFiveCarCountriesTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.1127530" startTime="2020-12-09T13:07:30.5337660-03:00" endTime="2020-12-09T13:07:31.0030779-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="197f3575-f610-486a-a583-7c27358092b5">
+    </UnitTestResult>
+  </Results>
+</TestRun>

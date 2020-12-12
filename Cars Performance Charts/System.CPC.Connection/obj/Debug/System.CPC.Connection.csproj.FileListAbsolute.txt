@@ -1,0 +1,5 @@
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.CPC.Connection.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.CPC.Connection.pdb
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\obj\Debug\System.CPC.Connection.dll
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\obj\Debug\System.CPC.Connection.pdb
+C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.Data.SQLite.dll

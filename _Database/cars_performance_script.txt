@@ -1,0 +1,15 @@
+CREATE TABLE Cars
+(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    maker VARCHAR(30)NOT NULL,
+    model VARCHAR(30)NOT NULL,
+    country VARCHAR(20)NOT NULL,
+    year INTEGER,
+    engine_size INTEGER NOT NULL,
+    power INTEGER NOT NULL,
+    torque INTEGER NOT NULL,
+    max_speed INTEGER NOT NULL,
+    price DECIMAL(10, 2)
+);
+
+SELECT * FROM Cars;

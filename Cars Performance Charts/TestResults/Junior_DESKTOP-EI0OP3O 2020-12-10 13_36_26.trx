@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fa54b35b-26ec-4935-b904-88e7ad548a9f" name="Junior@DESKTOP-EI0OP3O 2020-12-10 13:36:26" runUser="DESKTOP-EI0OP3O\Junior" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9129a168-b39a-40fb-acff-3718f31d7bae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Junior_DESKTOP-EI0OP3O 2020-12-10 13_36_26">
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\_Dependencies\System.Data.SQLite.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Controller\bin\Debug\System.CPC.Controller.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.CPC.Connection.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Model\bin\Debug\System.CPC.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2020-12-10T13:36:26.1240298-03:00" queuing="2020-12-10T13:36:28.4976975-03:00" start="2020-12-10T13:36:28.5067033-03:00" finish="2020-12-10T13:36:29.0181963-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CustomMaxSpeedComparisonTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="bd41bef7-f4b3-6486-2b9d-75db7826c0d6">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomMaxSpeedComparisonTest" />
+    </UnitTest>
+    <UnitTest name="FastestCarTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="405fa224-45c4-4ffb-a8eb-bce8ac588740">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FastestCarTest" />
+    </UnitTest>
+    <UnitTest name="AvgMaxSpeedTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="15d4f96b-b97a-bb25-fbe6-448fe265d08b">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AvgMaxSpeedTest" />
+    </UnitTest>
+    <OrderedTest name="Speed Statistics" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\speed statistics.orderedtest" id="2f85f03f-d69c-4d49-b81c-9d44fa5dbfd4">
+      <Execution id="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" />
+      <TestLinks>
+        <TestLink id="405fa224-45c4-4ffb-a8eb-bce8ac588740" name="FastestCarTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="15d4f96b-b97a-bb25-fbe6-448fe265d08b" name="AvgMaxSpeedTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="23c7c6d4-1a0e-eb6c-c505-3d7b9cfc8b13" name="TopFiveMaxSpeedTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="bd41bef7-f4b3-6486-2b9d-75db7826c0d6" name="CustomMaxSpeedComparisonTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+    <UnitTest name="TopFiveMaxSpeedTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="23c7c6d4-1a0e-eb6c-c505-3d7b9cfc8b13">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TopFiveMaxSpeedTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2f85f03f-d69c-4d49-b81c-9d44fa5dbfd4" executionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="405fa224-45c4-4ffb-a8eb-bce8ac588740" executionId="b2e34c26-fd84-4abe-aa21-fa6c7a83f039" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="15d4f96b-b97a-bb25-fbe6-448fe265d08b" executionId="fa9ecbc8-3a6f-48f1-a3b7-fdc2d87cbfc1" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="23c7c6d4-1a0e-eb6c-c505-3d7b9cfc8b13" executionId="cd170267-f77c-4818-8c00-729397fc9dc4" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="bd41bef7-f4b3-6486-2b9d-75db7826c0d6" executionId="43cfc9ad-d8ea-46c5-94cf-8170ae9a51b1" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testId="2f85f03f-d69c-4d49-b81c-9d44fa5dbfd4" testName="Speed Statistics" computerName="DESKTOP-EI0OP3O" duration="00:00:00.4603222" startTime="2020-12-10T13:36:28.5249594-03:00" endTime="2020-12-10T13:36:28.9871759-03:00" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="4" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="b2e34c26-fd84-4abe-aa21-fa6c7a83f039" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testId="405fa224-45c4-4ffb-a8eb-bce8ac588740" testName="FastestCarTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.1079325" startTime="2020-12-10T13:36:28.5269594-03:00" endTime="2020-12-10T13:36:28.9461482-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2e34c26-fd84-4abe-aa21-fa6c7a83f039">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="fa9ecbc8-3a6f-48f1-a3b7-fdc2d87cbfc1" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testId="15d4f96b-b97a-bb25-fbe6-448fe265d08b" testName="AvgMaxSpeedTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.0053083" startTime="2020-12-10T13:36:28.9461482-03:00" endTime="2020-12-10T13:36:28.9601603-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa9ecbc8-3a6f-48f1-a3b7-fdc2d87cbfc1">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="cd170267-f77c-4818-8c00-729397fc9dc4" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testId="23c7c6d4-1a0e-eb6c-c505-3d7b9cfc8b13" testName="TopFiveMaxSpeedTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.0049549" startTime="2020-12-10T13:36:28.9601603-03:00" endTime="2020-12-10T13:36:28.9721678-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd170267-f77c-4818-8c00-729397fc9dc4">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="43cfc9ad-d8ea-46c5-94cf-8170ae9a51b1" parentExecutionId="147bc3b4-c2c8-4b2d-8cfc-8802bfd65890" testId="bd41bef7-f4b3-6486-2b9d-75db7826c0d6" testName="CustomMaxSpeedComparisonTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.0059620" startTime="2020-12-10T13:36:28.9731656-03:00" endTime="2020-12-10T13:36:28.9861750-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43cfc9ad-d8ea-46c5-94cf-8170ae9a51b1">
+          <Output>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </TestResultAggregation>
+  </Results>
+</TestRun>

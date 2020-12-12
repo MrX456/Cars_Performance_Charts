@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BEBBD79-1017-4C89-B6A7-E084B82CFE32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System.CPC.App</RootNamespace>
+    <AssemblyName>Cars Performance Charts</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.74.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Dependencies\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCarsNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCarsNew.Designer.cs">
+      <DependentUpon>FrmCarsNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCarsSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCarsSearch.Designer.cs">
+      <DependentUpon>FrmCarsSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHome.Designer.cs">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShortcuts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShortcuts.Designer.cs">
+      <DependentUpon>FrmShortcuts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplashScreen.Designer.cs">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStatisticsEngine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStatisticsEngine.Designer.cs">
+      <DependentUpon>FrmStatisticsEngine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStatisticsGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStatisticsGeneral.Designer.cs">
+      <DependentUpon>FrmStatisticsGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStatisticsPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStatisticsPower.Designer.cs">
+      <DependentUpon>FrmStatisticsPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStatisticsSpeed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStatisticsSpeed.Designer.cs">
+      <DependentUpon>FrmStatisticsSpeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStatisticsTorque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStatisticsTorque.Designer.cs">
+      <DependentUpon>FrmStatisticsTorque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Window.cs" />
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCarsNew.resx">
+      <DependentUpon>FrmCarsNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCarsSearch.resx">
+      <DependentUpon>FrmCarsSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHome.resx">
+      <DependentUpon>FrmHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShortcuts.resx">
+      <DependentUpon>FrmShortcuts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplashScreen.resx">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStatisticsEngine.resx">
+      <DependentUpon>FrmStatisticsEngine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStatisticsGeneral.resx">
+      <DependentUpon>FrmStatisticsGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStatisticsPower.resx">
+      <DependentUpon>FrmStatisticsPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStatisticsSpeed.resx">
+      <DependentUpon>FrmStatisticsSpeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStatisticsTorque.resx">
+      <DependentUpon>FrmStatisticsTorque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\System.CPC.Controller\System.CPC.Controller.csproj">
+      <Project>{76ED4116-9BAD-461E-B13B-BB1EECA4CA3B}</Project>
+      <Name>System.CPC.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.CPC.Misc\System.CPC.Misc.csproj">
+      <Project>{44A3A800-9D4B-43A6-9E23-683B1B6667F9}</Project>
+      <Name>System.CPC.Misc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\System.CPC.Model\System.CPC.Model.csproj">
+      <Project>{499369A0-4A90-46FB-839A-71D463340F94}</Project>
+      <Name>System.CPC.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splash_screen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speedometer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car-4-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expensive-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-badge-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-6-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\price-tag-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\procent-badge-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\engine-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turbo-icon-sticker-1568147604.1651447.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color-vector-icon-auto-moto-260nw-1631276833.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speed-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="icon_small.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

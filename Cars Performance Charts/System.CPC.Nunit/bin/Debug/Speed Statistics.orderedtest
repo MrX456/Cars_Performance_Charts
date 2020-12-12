@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OrderedTest name="Speed Statistics" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\speed statistics.orderedtest" id="2f85f03f-d69c-4d49-b81c-9d44fa5dbfd4" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestLinks>
+    <TestLink id="405fa224-45c4-4ffb-a8eb-bce8ac588740" name="FastestCarTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="15d4f96b-b97a-bb25-fbe6-448fe265d08b" name="AvgMaxSpeedTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="23c7c6d4-1a0e-eb6c-c505-3d7b9cfc8b13" name="TopFiveMaxSpeedTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <TestLink id="bd41bef7-f4b3-6486-2b9d-75db7826c0d6" name="CustomMaxSpeedComparisonTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  </TestLinks>
+</OrderedTest>

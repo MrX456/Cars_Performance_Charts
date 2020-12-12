@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5aa571a-8f89-4945-8d35-52f4dace1f8f" name="Junior@DESKTOP-EI0OP3O 2020-12-09 21:08:59" runUser="DESKTOP-EI0OP3O\Junior" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9129a168-b39a-40fb-acff-3718f31d7bae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Junior_DESKTOP-EI0OP3O 2020-12-09 21_08_59">
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\_Dependencies\System.Data.SQLite.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Controller\bin\Debug\System.CPC.Controller.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.CPC.Connection.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Model\bin\Debug\System.CPC.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2020-12-09T21:08:59.4068046-03:00" queuing="2020-12-09T21:09:00.9335217-03:00" start="2020-12-09T21:09:00.9540598-03:00" finish="2020-12-09T21:09:02.0595644-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CustomEngineSizeComparisonTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="056e569d-b883-70f6-ff8f-6eb1238c5ef7">
+      <Execution id="ebf10688-9f6b-4641-812c-f60c82f8cd1d" />
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomEngineSizeComparisonTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="056e569d-b883-70f6-ff8f-6eb1238c5ef7" executionId="ebf10688-9f6b-4641-812c-f60c82f8cd1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ebf10688-9f6b-4641-812c-f60c82f8cd1d" testId="056e569d-b883-70f6-ff8f-6eb1238c5ef7" testName="CustomEngineSizeComparisonTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.2677623" startTime="2020-12-09T21:09:00.9640803-03:00" endTime="2020-12-09T21:09:02.0353935-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebf10688-9f6b-4641-812c-f60c82f8cd1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method System.CPC.Nunit.CarDAOTest.CustomEngineSizeComparisonTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at System.CPC.Nunit.CarDAOTest.CustomEngineSizeComparisonTest() in C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\CarDAOTest.cs:line 379
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

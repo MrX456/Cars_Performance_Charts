@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2db5040b-2983-4f91-9e87-0015e39245d1" name="Junior@DESKTOP-EI0OP3O 2020-12-10 11:53:25" runUser="DESKTOP-EI0OP3O\Junior" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9129a168-b39a-40fb-acff-3718f31d7bae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Junior_DESKTOP-EI0OP3O 2020-12-10 11_53_25">
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\_Dependencies\System.Data.SQLite.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Controller\bin\Debug\System.CPC.Controller.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.CPC.Connection.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Model\bin\Debug\System.CPC.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2020-12-10T11:53:25.2624317-03:00" queuing="2020-12-10T11:53:30.2144572-03:00" start="2020-12-10T11:53:30.3675798-03:00" finish="2020-12-10T11:53:31.5435645-03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AvgPowerTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="b2b03c7d-720c-ed10-4fa0-8952eccb8cd2">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AvgPowerTest" />
+    </UnitTest>
+    <UnitTest name="TopFivePowerTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="e2f2ebe5-09a4-5ce3-28b3-fb34d9d60b74">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TopFivePowerTest" />
+    </UnitTest>
+    <UnitTest name="CustomPowerComparisonTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="f1dc3bf9-22cc-3553-7b2e-1c43ac01b14b">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomPowerComparisonTest" />
+    </UnitTest>
+    <UnitTest name="PowerfulCarTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="830cd4e6-b7c3-c4cd-541a-d5535b79bb49">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PowerfulCarTest" />
+    </UnitTest>
+    <OrderedTest name="power statistics" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\power statistics.orderedtest" id="b54f85eb-bd3c-49d5-bbc8-06f7932b81a9">
+      <Execution id="ce857d47-8d96-478a-a14d-a47269ae50b1" />
+      <TestLinks>
+        <TestLink id="830cd4e6-b7c3-c4cd-541a-d5535b79bb49" name="PowerfulCarTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="b2b03c7d-720c-ed10-4fa0-8952eccb8cd2" name="AvgPowerTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="e2f2ebe5-09a4-5ce3-28b3-fb34d9d60b74" name="TopFivePowerTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="f1dc3bf9-22cc-3553-7b2e-1c43ac01b14b" name="CustomPowerComparisonTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b54f85eb-bd3c-49d5-bbc8-06f7932b81a9" executionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="830cd4e6-b7c3-c4cd-541a-d5535b79bb49" executionId="66fd6605-a2c8-45f2-9110-3b1a76f2da08" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="b2b03c7d-720c-ed10-4fa0-8952eccb8cd2" executionId="a3bbe40b-19c2-413b-875f-d39fd50c4fd5" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="e2f2ebe5-09a4-5ce3-28b3-fb34d9d60b74" executionId="e81860a9-07d5-48b4-ae05-2ba9403dcceb" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="f1dc3bf9-22cc-3553-7b2e-1c43ac01b14b" executionId="8e1662db-e729-4510-acc9-374b4aa89d61" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testId="b54f85eb-bd3c-49d5-bbc8-06f7932b81a9" testName="power statistics" computerName="DESKTOP-EI0OP3O" duration="00:00:00.7155245" startTime="2020-12-10T11:53:30.6460637-03:00" endTime="2020-12-10T11:53:31.4565668-03:00" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce857d47-8d96-478a-a14d-a47269ae50b1">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="4" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="66fd6605-a2c8-45f2-9110-3b1a76f2da08" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testId="830cd4e6-b7c3-c4cd-541a-d5535b79bb49" testName="PowerfulCarTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.2960153" startTime="2020-12-10T11:53:30.7256321-03:00" endTime="2020-12-10T11:53:31.4177841-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66fd6605-a2c8-45f2-9110-3b1a76f2da08">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="a3bbe40b-19c2-413b-875f-d39fd50c4fd5" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testId="b2b03c7d-720c-ed10-4fa0-8952eccb8cd2" testName="AvgPowerTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.0030477" startTime="2020-12-10T11:53:31.4182848-03:00" endTime="2020-12-10T11:53:31.4258002-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3bbe40b-19c2-413b-875f-d39fd50c4fd5">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="e81860a9-07d5-48b4-ae05-2ba9403dcceb" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testId="e2f2ebe5-09a4-5ce3-28b3-fb34d9d60b74" testName="TopFivePowerTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.0036782" startTime="2020-12-10T11:53:31.4258002-03:00" endTime="2020-12-10T11:53:31.4338104-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e81860a9-07d5-48b4-ae05-2ba9403dcceb">
+          <Output>
+          </Output>
+        </UnitTestResult>
+        <UnitTestResult executionId="8e1662db-e729-4510-acc9-374b4aa89d61" parentExecutionId="ce857d47-8d96-478a-a14d-a47269ae50b1" testId="f1dc3bf9-22cc-3553-7b2e-1c43ac01b14b" testName="CustomPowerComparisonTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.0032422" startTime="2020-12-10T11:53:31.4338104-03:00" endTime="2020-12-10T11:53:31.4413151-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e1662db-e729-4510-acc9-374b4aa89d61">
+          <Output>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </TestResultAggregation>
+  </Results>
+</TestRun>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="741391bf-dbb0-4938-937c-ccc0db60ed3e" name="Junior@DESKTOP-EI0OP3O 2020-12-10 13:19:11" runUser="DESKTOP-EI0OP3O\Junior" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9129a168-b39a-40fb-acff-3718f31d7bae">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Junior_DESKTOP-EI0OP3O 2020-12-10 13_19_11">
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\_Dependencies\System.Data.SQLite.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Controller\bin\Debug\System.CPC.Controller.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Connection\bin\Debug\System.CPC.Connection.dll" />
+      <DeploymentItem filename="C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Model\bin\Debug\System.CPC.Model.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2020-12-10T13:19:11.1319553-03:00" queuing="2020-12-10T13:19:12.5835765-03:00" start="2020-12-10T13:19:12.6206425-03:00" finish="2020-12-10T13:19:13.8405517-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <OrderedTest name="torque statistcs" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\torque statistcs.orderedtest" id="77cd2538-2004-47d0-a5b4-3bd075874ec2">
+      <Execution id="394bb234-2fe7-4932-a739-c41932e600ba" />
+      <TestLinks>
+        <TestLink id="2fcd9bf8-5a14-9470-7d8b-696f59eb7387" name="MostTorqueCarTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="cc7e0317-2ca9-9384-fe09-857328d15823" name="AvgTorqueTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="4e3f3074-8223-9e19-872e-ea02d2a20a85" name="TopFiveTorqueTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="ea2a8436-45bf-1ae9-aaa2-842be39820fb" name="CustomTorqueComparisonTest" storage="bin\debug\system.cpc.nunit.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+    <UnitTest name="MostTorqueCarTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="2fcd9bf8-5a14-9470-7d8b-696f59eb7387">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MostTorqueCarTest" />
+    </UnitTest>
+    <UnitTest name="AvgTorqueTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="cc7e0317-2ca9-9384-fe09-857328d15823">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AvgTorqueTest" />
+    </UnitTest>
+    <UnitTest name="CustomTorqueComparisonTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="ea2a8436-45bf-1ae9-aaa2-842be39820fb">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CustomTorqueComparisonTest" />
+    </UnitTest>
+    <UnitTest name="TopFiveTorqueTest" storage="c:\users\junior\documents\00-workspace\[temp]cars charts\repo\art-factory.cs\2-cars performance charts\cars performance charts\system.cpc.nunit\bin\debug\system.cpc.nunit.dll" id="4e3f3074-8223-9e19-872e-ea02d2a20a85">
+      <TestMethod codeBase="C:/Users/Junior/Documents/00-Workspace/[temp]Cars charts/Repo/Art-Factory.cs/2-Cars Performance Charts/Cars Performance Charts/System.CPC.Nunit/bin/Debug/System.CPC.Nunit.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="System.CPC.Nunit.CarDAOTest, System.CPC.Nunit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TopFiveTorqueTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="77cd2538-2004-47d0-a5b4-3bd075874ec2" executionId="394bb234-2fe7-4932-a739-c41932e600ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="2fcd9bf8-5a14-9470-7d8b-696f59eb7387" executionId="2c9bd398-3c55-48f3-b09b-7145036a05ce" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="cc7e0317-2ca9-9384-fe09-857328d15823" executionId="8d402c64-acad-48d4-8dcd-e9180c58d7b3" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="4e3f3074-8223-9e19-872e-ea02d2a20a85" executionId="b59ddede-4981-4960-8925-086d1dc6d830" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="ea2a8436-45bf-1ae9-aaa2-842be39820fb" executionId="cec4cfe3-4053-4367-bd34-bcf914cbeb59" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="394bb234-2fe7-4932-a739-c41932e600ba" testId="77cd2538-2004-47d0-a5b4-3bd075874ec2" testName="torque statistcs" computerName="DESKTOP-EI0OP3O" duration="00:00:01.1404996" startTime="2020-12-10T13:19:12.6316496-03:00" endTime="2020-12-10T13:19:13.7774790-03:00" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="394bb234-2fe7-4932-a739-c41932e600ba">
+      <Counters error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="3" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="2c9bd398-3c55-48f3-b09b-7145036a05ce" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testId="2fcd9bf8-5a14-9470-7d8b-696f59eb7387" testName="MostTorqueCarTest" computerName="DESKTOP-EI0OP3O" duration="00:00:00.5536991" startTime="2020-12-10T13:19:12.6366643-03:00" endTime="2020-12-10T13:19:13.7769815-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c9bd398-3c55-48f3-b09b-7145036a05ce">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;Challenger RT&gt;. Actual:&lt;Enzo&gt;. </Message>
+              <StackTrace>   at System.CPC.Nunit.CarDAOTest.MostTorqueCarTest() in C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.Nunit\CarDAOTest.cs:line 510
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+        <TestResult executionId="8d402c64-acad-48d4-8dcd-e9180c58d7b3" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testId="cc7e0317-2ca9-9384-fe09-857328d15823" testName="AvgTorqueTest" computerName="DESKTOP-EI0OP3O" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d402c64-acad-48d4-8dcd-e9180c58d7b3" />
+        <TestResult executionId="b59ddede-4981-4960-8925-086d1dc6d830" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testId="4e3f3074-8223-9e19-872e-ea02d2a20a85" testName="TopFiveTorqueTest" computerName="DESKTOP-EI0OP3O" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b59ddede-4981-4960-8925-086d1dc6d830" />
+        <TestResult executionId="cec4cfe3-4053-4367-bd34-bcf914cbeb59" parentExecutionId="394bb234-2fe7-4932-a739-c41932e600ba" testId="ea2a8436-45bf-1ae9-aaa2-842be39820fb" testName="CustomTorqueComparisonTest" computerName="DESKTOP-EI0OP3O" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cec4cfe3-4053-4367-bd34-bcf914cbeb59" />
+      </InnerResults>
+    </TestResultAggregation>
+  </Results>
+</TestRun>
