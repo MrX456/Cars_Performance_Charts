@@ -1,1 +1,3 @@
-# Cars_Performance_Charts
+<p align="center">
+  <img src="icon.png">
+</p>
