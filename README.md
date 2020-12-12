@@ -1,4 +1,4 @@
-# Cars Perfomance Charts
+<div align="center"># Cars Perfomance Charts</div>
 
 <p align="center">
   <img src="icon.png">
