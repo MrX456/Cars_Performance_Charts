@@ -1,6 +1,0 @@
-var searchData=
-[
-  ['dgvcars_5fcellclick_243',['dgvCars_CellClick',['../class_system_1_1_c_p_c_1_1_app_1_1_frm_cars_search.html#adde99432dbd8d9af18212dfe6e5284ee',1,'System.CPC.App.FrmCarsSearch.dgvCars_CellClick()'],['../class_system_1_1_c_p_c_1_1_app_1_1_frm_statistics_engine.html#a6bded7280a4a4b3a75c21cd5ca6a8918',1,'System.CPC.App.FrmStatisticsEngine.dgvCars_CellClick()'],['../class_system_1_1_c_p_c_1_1_app_1_1_frm_statistics_power.html#a90f279931d042a7ac2caad7ad18b8a28',1,'System.CPC.App.FrmStatisticsPower.dgvCars_CellClick()'],['../class_system_1_1_c_p_c_1_1_app_1_1_frm_statistics_speed.html#a61e0f8822167a9cad8161da7a3f7a98b',1,'System.CPC.App.FrmStatisticsSpeed.dgvCars_CellClick()'],['../class_system_1_1_c_p_c_1_1_app_1_1_frm_statistics_torque.html#a69eeb6896461fe6b384264fc15c38968',1,'System.CPC.App.FrmStatisticsTorque.dgvCars_CellClick()']]],
-  ['disposeconnection_244',['DisposeConnection',['../class_system_1_1_c_p_c_1_1_connection_1_1_connection_factory.html#a7457fdc292571ca0123ec718ecd9d945',1,'System::CPC::Connection::ConnectionFactory']]],
-  ['documentationtoolstripmenuitem_5fclick_245',['documentationToolStripMenuItem_Click',['../class_system_1_1_c_p_c_1_1_app_1_1_frm_home.html#a719ae5e5e12864cb98c2dc4b843f395e',1,'System::CPC::App::FrmHome']]]
-];
