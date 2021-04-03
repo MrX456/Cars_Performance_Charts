@@ -124,6 +124,9 @@
   <data name="color-vector-icon-auto-moto-260nw-1631276833" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\color-vector-icon-auto-moto-260nw-1631276833.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="expensive-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\expensive-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -175,7 +178,7 @@
   <data name="turbo-icon-sticker-1568147604.1651447" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\turbo-icon-sticker-1568147604.1651447.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="disk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\disk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="speedometer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\speedometer.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

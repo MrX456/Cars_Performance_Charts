@@ -25,3 +25,30 @@ C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-C
 C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\Cars Performance Charts.exe
 C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\Cars Performance Charts.pdb
 C:\Users\Junior\Documents\00-Workspace\[temp]Cars charts\Repo\Art-Factory.cs\2-Cars Performance Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.csprojResolveAssemblyReference.cache
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\Cars Performance Charts.exe
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\Cars Performance Charts.pdb
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\Cars Performance Charts.exe
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\Cars Performance Charts.pdb
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Controller.dll
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Misc.dll
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Model.dll
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.Data.SQLite.dll
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Connection.dll
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Controller.pdb
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Misc.pdb
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Model.pdb
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\bin\Release\System.CPC.Connection.pdb
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.csprojResolveAssemblyReference.cache
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmAbout.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmCarsNew.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmCarsSearch.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmHome.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmShortcuts.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmSplashScreen.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmStatisticsEngine.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmStatisticsGeneral.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmStatisticsPower.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmStatisticsSpeed.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.FrmStatisticsTorque.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.Properties.Resources.resources
+C:\Users\Workstation\Documents\00-Workspace\[temp]CPC-new release\Cars_Performance_Charts\Cars Performance Charts\System.CPC.App\obj\x86\Release\System.CPC.App.csproj.GenerateResource.Cache

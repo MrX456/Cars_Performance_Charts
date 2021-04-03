@@ -29,13 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panFields = new System.Windows.Forms.Panel();
+            this.btnExportContries = new System.Windows.Forms.Button();
+            this.btnExportMakers = new System.Windows.Forms.Button();
             this.chartCountries = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartMakers = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panLoad = new System.Windows.Forms.Panel();
@@ -43,45 +45,45 @@
             this.lblLoading = new System.Windows.Forms.Label();
             this.panExpensivest = new System.Windows.Forms.Panel();
             this.lblExpensivestValue = new System.Windows.Forms.Label();
-            this.picExpensivest = new System.Windows.Forms.PictureBox();
             this.lblExpensivest = new System.Windows.Forms.Label();
             this.panNewest = new System.Windows.Forms.Panel();
             this.lblNewestValue = new System.Windows.Forms.Label();
-            this.picNewest = new System.Windows.Forms.PictureBox();
             this.lblNewest = new System.Windows.Forms.Label();
             this.panGarageSumValue = new System.Windows.Forms.Panel();
-            this.picSum = new System.Windows.Forms.PictureBox();
             this.lblSumValue = new System.Windows.Forms.Label();
             this.lblSum = new System.Windows.Forms.Label();
             this.panGarageAVGValue = new System.Windows.Forms.Panel();
             this.lblAvgValue = new System.Windows.Forms.Label();
-            this.picAvg = new System.Windows.Forms.PictureBox();
             this.lblAvgGarage = new System.Windows.Forms.Label();
             this.panTotalCars = new System.Windows.Forms.Panel();
-            this.picTotalCars = new System.Windows.Forms.PictureBox();
             this.lblTotalCarsValue = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.panTitle = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.timerLoading = new System.Windows.Forms.Timer(this.components);
-            this.btnExportMakers = new System.Windows.Forms.Button();
-            this.btnExportContries = new System.Windows.Forms.Button();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.picStatus = new System.Windows.Forms.PictureBox();
+            this.picExpensivest = new System.Windows.Forms.PictureBox();
+            this.picNewest = new System.Windows.Forms.PictureBox();
+            this.picSum = new System.Windows.Forms.PictureBox();
+            this.picAvg = new System.Windows.Forms.PictureBox();
+            this.picTotalCars = new System.Windows.Forms.PictureBox();
             this.panFields.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartCountries)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartMakers)).BeginInit();
             this.panLoad.SuspendLayout();
             this.panExpensivest.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picExpensivest)).BeginInit();
             this.panNewest.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picNewest)).BeginInit();
             this.panGarageSumValue.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picSum)).BeginInit();
             this.panGarageAVGValue.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAvg)).BeginInit();
             this.panTotalCars.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picTotalCars)).BeginInit();
             this.panTitle.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExpensivest)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNewest)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSum)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTotalCars)).BeginInit();
             this.SuspendLayout();
             // 
             // panFields
@@ -104,23 +106,53 @@
             this.panFields.Size = new System.Drawing.Size(863, 535);
             this.panFields.TabIndex = 1;
             // 
+            // btnExportContries
+            // 
+            this.btnExportContries.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnExportContries.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExportContries.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnExportContries.Location = new System.Drawing.Point(759, 461);
+            this.btnExportContries.Name = "btnExportContries";
+            this.btnExportContries.Size = new System.Drawing.Size(75, 23);
+            this.btnExportContries.TabIndex = 11;
+            this.btnExportContries.Text = "Export";
+            this.toolTip.SetToolTip(this.btnExportContries, "Export chart");
+            this.btnExportContries.UseVisualStyleBackColor = false;
+            this.btnExportContries.Visible = false;
+            this.btnExportContries.Click += new System.EventHandler(this.btnExport2_Click);
+            // 
+            // btnExportMakers
+            // 
+            this.btnExportMakers.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnExportMakers.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExportMakers.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnExportMakers.Location = new System.Drawing.Point(299, 461);
+            this.btnExportMakers.Name = "btnExportMakers";
+            this.btnExportMakers.Size = new System.Drawing.Size(75, 23);
+            this.btnExportMakers.TabIndex = 10;
+            this.btnExportMakers.Text = "Export";
+            this.toolTip.SetToolTip(this.btnExportMakers, "Export chart");
+            this.btnExportMakers.UseVisualStyleBackColor = false;
+            this.btnExportMakers.Visible = false;
+            this.btnExportMakers.Click += new System.EventHandler(this.btnExport1_Click);
+            // 
             // chartCountries
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartCountries.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartCountries.Legends.Add(legend1);
+            chartArea7.Name = "ChartArea1";
+            this.chartCountries.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.chartCountries.Legends.Add(legend7);
             this.chartCountries.Location = new System.Drawing.Point(451, 249);
             this.chartCountries.Name = "chartCountries";
-            series1.ChartArea = "ChartArea1";
-            series1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            series1.IsValueShownAsLabel = true;
-            series1.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            series1.LabelBorderWidth = 2;
-            series1.Legend = "Legend1";
-            series1.LegendText = "Cars by country top 5";
-            series1.Name = "Countries";
-            this.chartCountries.Series.Add(series1);
+            series7.ChartArea = "ChartArea1";
+            series7.Color = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            series7.IsValueShownAsLabel = true;
+            series7.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            series7.LabelBorderWidth = 2;
+            series7.Legend = "Legend1";
+            series7.LegendText = "Cars by country top 5";
+            series7.Name = "Countries";
+            this.chartCountries.Series.Add(series7);
             this.chartCountries.Size = new System.Drawing.Size(412, 262);
             this.chartCountries.TabIndex = 9;
             this.chartCountries.Text = "chartCountries";
@@ -128,20 +160,20 @@
             // 
             // chartMakers
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartMakers.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartMakers.Legends.Add(legend2);
+            chartArea8.Name = "ChartArea1";
+            this.chartMakers.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.chartMakers.Legends.Add(legend8);
             this.chartMakers.Location = new System.Drawing.Point(0, 249);
             this.chartMakers.Name = "chartMakers";
-            series2.ChartArea = "ChartArea1";
-            series2.IsValueShownAsLabel = true;
-            series2.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            series2.LabelBorderWidth = 2;
-            series2.Legend = "Legend1";
-            series2.LegendText = "Cars by maker top 5";
-            series2.Name = "Makers";
-            this.chartMakers.Series.Add(series2);
+            series8.ChartArea = "ChartArea1";
+            series8.IsValueShownAsLabel = true;
+            series8.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            series8.LabelBorderWidth = 2;
+            series8.Legend = "Legend1";
+            series8.LegendText = "Cars by maker top 5";
+            series8.Name = "Makers";
+            this.chartMakers.Series.Add(series8);
             this.chartMakers.Size = new System.Drawing.Size(412, 262);
             this.chartMakers.TabIndex = 8;
             this.chartMakers.Text = "chartMakers";
@@ -149,27 +181,29 @@
             // 
             // panLoad
             // 
+            this.panLoad.Controls.Add(this.picStatus);
             this.panLoad.Controls.Add(this.pbLoading);
             this.panLoad.Controls.Add(this.lblLoading);
             this.panLoad.Location = new System.Drawing.Point(219, 185);
             this.panLoad.Name = "panLoad";
-            this.panLoad.Size = new System.Drawing.Size(468, 58);
+            this.panLoad.Size = new System.Drawing.Size(468, 68);
             this.panLoad.TabIndex = 7;
             // 
             // pbLoading
             // 
             this.pbLoading.ForeColor = System.Drawing.Color.MediumBlue;
-            this.pbLoading.Location = new System.Drawing.Point(18, 24);
+            this.pbLoading.Location = new System.Drawing.Point(271, 24);
             this.pbLoading.Name = "pbLoading";
-            this.pbLoading.Size = new System.Drawing.Size(426, 23);
+            this.pbLoading.Size = new System.Drawing.Size(173, 23);
             this.pbLoading.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.pbLoading.TabIndex = 5;
+            this.pbLoading.Visible = false;
             // 
             // lblLoading
             // 
             this.lblLoading.AutoSize = true;
             this.lblLoading.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lblLoading.Location = new System.Drawing.Point(18, 5);
+            this.lblLoading.Location = new System.Drawing.Point(190, 50);
             this.lblLoading.Name = "lblLoading";
             this.lblLoading.Size = new System.Drawing.Size(97, 13);
             this.lblLoading.TabIndex = 6;
@@ -197,15 +231,6 @@
             this.lblExpensivestValue.Size = new System.Drawing.Size(43, 15);
             this.lblExpensivestValue.TabIndex = 6;
             this.lblExpensivestValue.Text = "Value";
-            // 
-            // picExpensivest
-            // 
-            this.picExpensivest.Image = global::System.CPC.App.Properties.Resources.expensive_64;
-            this.picExpensivest.Location = new System.Drawing.Point(36, 12);
-            this.picExpensivest.Name = "picExpensivest";
-            this.picExpensivest.Size = new System.Drawing.Size(68, 68);
-            this.picExpensivest.TabIndex = 3;
-            this.picExpensivest.TabStop = false;
             // 
             // lblExpensivest
             // 
@@ -240,15 +265,6 @@
             this.lblNewestValue.TabIndex = 5;
             this.lblNewestValue.Text = "Value";
             // 
-            // picNewest
-            // 
-            this.picNewest.Image = global::System.CPC.App.Properties.Resources.new_badge_64;
-            this.picNewest.Location = new System.Drawing.Point(36, 12);
-            this.picNewest.Name = "picNewest";
-            this.picNewest.Size = new System.Drawing.Size(68, 68);
-            this.picNewest.TabIndex = 3;
-            this.picNewest.TabStop = false;
-            // 
             // lblNewest
             // 
             this.lblNewest.AutoSize = true;
@@ -270,15 +286,6 @@
             this.panGarageSumValue.Size = new System.Drawing.Size(149, 154);
             this.panGarageSumValue.TabIndex = 4;
             this.panGarageSumValue.Visible = false;
-            // 
-            // picSum
-            // 
-            this.picSum.Image = global::System.CPC.App.Properties.Resources.price_tag_64;
-            this.picSum.Location = new System.Drawing.Point(36, 12);
-            this.picSum.Name = "picSum";
-            this.picSum.Size = new System.Drawing.Size(68, 68);
-            this.picSum.TabIndex = 3;
-            this.picSum.TabStop = false;
             // 
             // lblSumValue
             // 
@@ -324,15 +331,6 @@
             this.lblAvgValue.TabIndex = 4;
             this.lblAvgValue.Text = "Value";
             // 
-            // picAvg
-            // 
-            this.picAvg.Image = global::System.CPC.App.Properties.Resources.procent_badge_64;
-            this.picAvg.Location = new System.Drawing.Point(36, 12);
-            this.picAvg.Name = "picAvg";
-            this.picAvg.Size = new System.Drawing.Size(68, 68);
-            this.picAvg.TabIndex = 3;
-            this.picAvg.TabStop = false;
-            // 
             // lblAvgGarage
             // 
             this.lblAvgGarage.AutoSize = true;
@@ -354,15 +352,6 @@
             this.panTotalCars.Size = new System.Drawing.Size(149, 154);
             this.panTotalCars.TabIndex = 0;
             this.panTotalCars.Visible = false;
-            // 
-            // picTotalCars
-            // 
-            this.picTotalCars.Image = global::System.CPC.App.Properties.Resources.car_4_64;
-            this.picTotalCars.Location = new System.Drawing.Point(36, 12);
-            this.picTotalCars.Name = "picTotalCars";
-            this.picTotalCars.Size = new System.Drawing.Size(68, 68);
-            this.picTotalCars.TabIndex = 3;
-            this.picTotalCars.TabStop = false;
             // 
             // lblTotalCarsValue
             // 
@@ -410,35 +399,59 @@
             this.timerLoading.Enabled = true;
             this.timerLoading.Tick += new System.EventHandler(this.timerLoading_Tick);
             // 
-            // btnExportMakers
+            // picStatus
             // 
-            this.btnExportMakers.BackColor = System.Drawing.Color.RoyalBlue;
-            this.btnExportMakers.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExportMakers.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExportMakers.Location = new System.Drawing.Point(299, 461);
-            this.btnExportMakers.Name = "btnExportMakers";
-            this.btnExportMakers.Size = new System.Drawing.Size(75, 23);
-            this.btnExportMakers.TabIndex = 10;
-            this.btnExportMakers.Text = "Export";
-            this.toolTip.SetToolTip(this.btnExportMakers, "Export chart");
-            this.btnExportMakers.UseVisualStyleBackColor = false;
-            this.btnExportMakers.Visible = false;
-            this.btnExportMakers.Click += new System.EventHandler(this.btnExport1_Click);
+            this.picStatus.Image = global::System.CPC.App.Properties.Resources.speedometer1;
+            this.picStatus.Location = new System.Drawing.Point(206, 3);
+            this.picStatus.Name = "picStatus";
+            this.picStatus.Size = new System.Drawing.Size(50, 50);
+            this.picStatus.TabIndex = 2;
+            this.picStatus.TabStop = false;
             // 
-            // btnExportContries
+            // picExpensivest
             // 
-            this.btnExportContries.BackColor = System.Drawing.Color.DarkOrange;
-            this.btnExportContries.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnExportContries.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExportContries.Location = new System.Drawing.Point(759, 461);
-            this.btnExportContries.Name = "btnExportContries";
-            this.btnExportContries.Size = new System.Drawing.Size(75, 23);
-            this.btnExportContries.TabIndex = 11;
-            this.btnExportContries.Text = "Export";
-            this.toolTip.SetToolTip(this.btnExportContries, "Export chart");
-            this.btnExportContries.UseVisualStyleBackColor = false;
-            this.btnExportContries.Visible = false;
-            this.btnExportContries.Click += new System.EventHandler(this.btnExport2_Click);
+            this.picExpensivest.Image = global::System.CPC.App.Properties.Resources.expensive_64;
+            this.picExpensivest.Location = new System.Drawing.Point(36, 12);
+            this.picExpensivest.Name = "picExpensivest";
+            this.picExpensivest.Size = new System.Drawing.Size(68, 68);
+            this.picExpensivest.TabIndex = 3;
+            this.picExpensivest.TabStop = false;
+            // 
+            // picNewest
+            // 
+            this.picNewest.Image = global::System.CPC.App.Properties.Resources.new_badge_64;
+            this.picNewest.Location = new System.Drawing.Point(36, 12);
+            this.picNewest.Name = "picNewest";
+            this.picNewest.Size = new System.Drawing.Size(68, 68);
+            this.picNewest.TabIndex = 3;
+            this.picNewest.TabStop = false;
+            // 
+            // picSum
+            // 
+            this.picSum.Image = global::System.CPC.App.Properties.Resources.price_tag_64;
+            this.picSum.Location = new System.Drawing.Point(36, 12);
+            this.picSum.Name = "picSum";
+            this.picSum.Size = new System.Drawing.Size(68, 68);
+            this.picSum.TabIndex = 3;
+            this.picSum.TabStop = false;
+            // 
+            // picAvg
+            // 
+            this.picAvg.Image = global::System.CPC.App.Properties.Resources.procent_badge_64;
+            this.picAvg.Location = new System.Drawing.Point(36, 12);
+            this.picAvg.Name = "picAvg";
+            this.picAvg.Size = new System.Drawing.Size(68, 68);
+            this.picAvg.TabIndex = 3;
+            this.picAvg.TabStop = false;
+            // 
+            // picTotalCars
+            // 
+            this.picTotalCars.Image = global::System.CPC.App.Properties.Resources.car_4_64;
+            this.picTotalCars.Location = new System.Drawing.Point(36, 12);
+            this.picTotalCars.Name = "picTotalCars";
+            this.picTotalCars.Size = new System.Drawing.Size(68, 68);
+            this.picTotalCars.TabIndex = 3;
+            this.picTotalCars.TabStop = false;
             // 
             // FrmStatisticsGeneral
             // 
@@ -459,21 +472,22 @@
             this.panLoad.PerformLayout();
             this.panExpensivest.ResumeLayout(false);
             this.panExpensivest.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picExpensivest)).EndInit();
             this.panNewest.ResumeLayout(false);
             this.panNewest.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picNewest)).EndInit();
             this.panGarageSumValue.ResumeLayout(false);
             this.panGarageSumValue.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picSum)).EndInit();
             this.panGarageAVGValue.ResumeLayout(false);
             this.panGarageAVGValue.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picAvg)).EndInit();
             this.panTotalCars.ResumeLayout(false);
             this.panTotalCars.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picTotalCars)).EndInit();
             this.panTitle.ResumeLayout(false);
             this.panTitle.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExpensivest)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picNewest)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picSum)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picAvg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picTotalCars)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -512,5 +526,6 @@
         private Windows.Forms.Button btnExportContries;
         private Windows.Forms.Button btnExportMakers;
         private Windows.Forms.ToolTip toolTip;
+        private Windows.Forms.PictureBox picStatus;
     }
 }

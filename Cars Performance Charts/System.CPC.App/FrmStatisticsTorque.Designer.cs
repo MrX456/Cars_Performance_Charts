@@ -59,9 +59,6 @@
             this.btnExportTorque = new System.Windows.Forms.Button();
             this.chartCustomTorque = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartTorque = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.panLoad = new System.Windows.Forms.Panel();
-            this.pbLoading = new System.Windows.Forms.ProgressBar();
-            this.lblLoading = new System.Windows.Forms.Label();
             this.panAvgTorque = new System.Windows.Forms.Panel();
             this.picAvg = new System.Windows.Forms.PictureBox();
             this.lblAvgValue = new System.Windows.Forms.Label();
@@ -75,18 +72,23 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.timerLoading = new System.Windows.Forms.Timer(this.components);
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.panLoad = new System.Windows.Forms.Panel();
+            this.picStatus = new System.Windows.Forms.PictureBox();
+            this.pbLoading = new System.Windows.Forms.ProgressBar();
+            this.lblLoading = new System.Windows.Forms.Label();
             this.panFields.SuspendLayout();
             this.panSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFilter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCars)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartCustomTorque)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartTorque)).BeginInit();
-            this.panLoad.SuspendLayout();
             this.panAvgTorque.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvg)).BeginInit();
             this.panTorqueCar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picTorqueCar)).BeginInit();
             this.panTitle.SuspendLayout();
+            this.panLoad.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).BeginInit();
             this.SuspendLayout();
             // 
             // panFields
@@ -94,6 +96,7 @@
             this.panFields.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
+            this.panFields.Controls.Add(this.panLoad);
             this.panFields.Controls.Add(this.lblTopCustomChart);
             this.panFields.Controls.Add(this.btnCompare);
             this.panFields.Controls.Add(this.lblTopTorqueChart);
@@ -112,7 +115,6 @@
             this.panFields.Controls.Add(this.btnExportTorque);
             this.panFields.Controls.Add(this.chartCustomTorque);
             this.panFields.Controls.Add(this.chartTorque);
-            this.panFields.Controls.Add(this.panLoad);
             this.panFields.Controls.Add(this.panAvgTorque);
             this.panFields.Controls.Add(this.panTorqueCar);
             this.panFields.Location = new System.Drawing.Point(201, 103);
@@ -402,34 +404,6 @@
             this.chartTorque.Text = "chartPower";
             this.chartTorque.Visible = false;
             // 
-            // panLoad
-            // 
-            this.panLoad.Controls.Add(this.pbLoading);
-            this.panLoad.Controls.Add(this.lblLoading);
-            this.panLoad.Location = new System.Drawing.Point(219, 185);
-            this.panLoad.Name = "panLoad";
-            this.panLoad.Size = new System.Drawing.Size(468, 58);
-            this.panLoad.TabIndex = 7;
-            // 
-            // pbLoading
-            // 
-            this.pbLoading.ForeColor = System.Drawing.Color.MediumBlue;
-            this.pbLoading.Location = new System.Drawing.Point(18, 24);
-            this.pbLoading.Name = "pbLoading";
-            this.pbLoading.Size = new System.Drawing.Size(426, 23);
-            this.pbLoading.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.pbLoading.TabIndex = 5;
-            // 
-            // lblLoading
-            // 
-            this.lblLoading.AutoSize = true;
-            this.lblLoading.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lblLoading.Location = new System.Drawing.Point(18, 5);
-            this.lblLoading.Name = "lblLoading";
-            this.lblLoading.Size = new System.Drawing.Size(97, 13);
-            this.lblLoading.TabIndex = 6;
-            this.lblLoading.Text = "Loading statistics...";
-            // 
             // panAvgTorque
             // 
             this.panAvgTorque.BackColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -551,6 +525,45 @@
             this.timerLoading.Enabled = true;
             this.timerLoading.Tick += new System.EventHandler(this.timerLoading_Tick);
             // 
+            // panLoad
+            // 
+            this.panLoad.Controls.Add(this.picStatus);
+            this.panLoad.Controls.Add(this.pbLoading);
+            this.panLoad.Controls.Add(this.lblLoading);
+            this.panLoad.Location = new System.Drawing.Point(198, 185);
+            this.panLoad.Name = "panLoad";
+            this.panLoad.Size = new System.Drawing.Size(468, 68);
+            this.panLoad.TabIndex = 48;
+            // 
+            // picStatus
+            // 
+            this.picStatus.Image = global::System.CPC.App.Properties.Resources.speedometer1;
+            this.picStatus.Location = new System.Drawing.Point(206, 3);
+            this.picStatus.Name = "picStatus";
+            this.picStatus.Size = new System.Drawing.Size(50, 50);
+            this.picStatus.TabIndex = 2;
+            this.picStatus.TabStop = false;
+            // 
+            // pbLoading
+            // 
+            this.pbLoading.ForeColor = System.Drawing.Color.MediumBlue;
+            this.pbLoading.Location = new System.Drawing.Point(271, 24);
+            this.pbLoading.Name = "pbLoading";
+            this.pbLoading.Size = new System.Drawing.Size(173, 23);
+            this.pbLoading.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbLoading.TabIndex = 5;
+            this.pbLoading.Visible = false;
+            // 
+            // lblLoading
+            // 
+            this.lblLoading.AutoSize = true;
+            this.lblLoading.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.lblLoading.Location = new System.Drawing.Point(190, 50);
+            this.lblLoading.Name = "lblLoading";
+            this.lblLoading.Size = new System.Drawing.Size(97, 13);
+            this.lblLoading.TabIndex = 6;
+            this.lblLoading.Text = "Loading statistics...";
+            // 
             // FrmStatisticsTorque
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -571,8 +584,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCars)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartCustomTorque)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartTorque)).EndInit();
-            this.panLoad.ResumeLayout(false);
-            this.panLoad.PerformLayout();
             this.panAvgTorque.ResumeLayout(false);
             this.panAvgTorque.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvg)).EndInit();
@@ -581,6 +592,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picTorqueCar)).EndInit();
             this.panTitle.ResumeLayout(false);
             this.panTitle.PerformLayout();
+            this.panLoad.ResumeLayout(false);
+            this.panLoad.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -611,9 +625,6 @@
         private Windows.Forms.Button btnExportTorque;
         private Windows.Forms.DataVisualization.Charting.Chart chartCustomTorque;
         private Windows.Forms.DataVisualization.Charting.Chart chartTorque;
-        private Windows.Forms.Panel panLoad;
-        private Windows.Forms.ProgressBar pbLoading;
-        private Windows.Forms.Label lblLoading;
         private Windows.Forms.Panel panAvgTorque;
         private Windows.Forms.PictureBox picAvg;
         private Windows.Forms.Label lblAvgValue;
@@ -627,5 +638,9 @@
         private Windows.Forms.Label lblTitle;
         private Windows.Forms.Timer timerLoading;
         private Windows.Forms.ToolTip toolTip;
+        private Windows.Forms.Panel panLoad;
+        private Windows.Forms.PictureBox picStatus;
+        private Windows.Forms.ProgressBar pbLoading;
+        private Windows.Forms.Label lblLoading;
     }
 }

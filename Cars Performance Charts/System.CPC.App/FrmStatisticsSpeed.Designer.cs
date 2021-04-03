@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panFields = new System.Windows.Forms.Panel();
             this.lblTopCustomChart = new System.Windows.Forms.Label();
             this.btnCompare = new System.Windows.Forms.Button();
@@ -59,9 +59,6 @@
             this.btnExportSpeed = new System.Windows.Forms.Button();
             this.chartCustomSpeed = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartSpeed = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.panLoad = new System.Windows.Forms.Panel();
-            this.pbLoading = new System.Windows.Forms.ProgressBar();
-            this.lblLoading = new System.Windows.Forms.Label();
             this.panAvgSpeed = new System.Windows.Forms.Panel();
             this.picAvg = new System.Windows.Forms.PictureBox();
             this.lblAvgValue = new System.Windows.Forms.Label();
@@ -75,18 +72,23 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.timerLoading = new System.Windows.Forms.Timer(this.components);
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.panLoad = new System.Windows.Forms.Panel();
+            this.picStatus = new System.Windows.Forms.PictureBox();
+            this.pbLoading = new System.Windows.Forms.ProgressBar();
+            this.lblLoading = new System.Windows.Forms.Label();
             this.panFields.SuspendLayout();
             this.panSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFilter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCars)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartCustomSpeed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartSpeed)).BeginInit();
-            this.panLoad.SuspendLayout();
             this.panAvgSpeed.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvg)).BeginInit();
             this.panFastestCar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFastestCar)).BeginInit();
             this.panTitle.SuspendLayout();
+            this.panLoad.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).BeginInit();
             this.SuspendLayout();
             // 
             // panFields
@@ -94,6 +96,7 @@
             this.panFields.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
+            this.panFields.Controls.Add(this.panLoad);
             this.panFields.Controls.Add(this.lblTopCustomChart);
             this.panFields.Controls.Add(this.btnCompare);
             this.panFields.Controls.Add(this.lblTopSpeedChart);
@@ -112,7 +115,6 @@
             this.panFields.Controls.Add(this.btnExportSpeed);
             this.panFields.Controls.Add(this.chartCustomSpeed);
             this.panFields.Controls.Add(this.chartSpeed);
-            this.panFields.Controls.Add(this.panLoad);
             this.panFields.Controls.Add(this.panAvgSpeed);
             this.panFields.Controls.Add(this.panFastestCar);
             this.panFields.Location = new System.Drawing.Point(201, 103);
@@ -359,22 +361,22 @@
             // 
             // chartCustomSpeed
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartCustomSpeed.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartCustomSpeed.Legends.Add(legend1);
+            chartArea5.Name = "ChartArea1";
+            this.chartCustomSpeed.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chartCustomSpeed.Legends.Add(legend5);
             this.chartCustomSpeed.Location = new System.Drawing.Point(451, 249);
             this.chartCustomSpeed.Name = "chartCustomSpeed";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Color = System.Drawing.Color.Red;
-            series1.IsValueShownAsLabel = true;
-            series1.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            series1.LabelBorderWidth = 2;
-            series1.Legend = "Legend1";
-            series1.LegendText = "Speed mph";
-            series1.Name = "Speed";
-            this.chartCustomSpeed.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Color = System.Drawing.Color.Red;
+            series5.IsValueShownAsLabel = true;
+            series5.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            series5.LabelBorderWidth = 2;
+            series5.Legend = "Legend1";
+            series5.LegendText = "Speed mph";
+            series5.Name = "Speed";
+            this.chartCustomSpeed.Series.Add(series5);
             this.chartCustomSpeed.Size = new System.Drawing.Size(412, 262);
             this.chartCustomSpeed.TabIndex = 9;
             this.chartCustomSpeed.Text = "chartCustomSpeed";
@@ -382,53 +384,25 @@
             // 
             // chartSpeed
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartSpeed.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartSpeed.Legends.Add(legend2);
+            chartArea6.Name = "ChartArea1";
+            this.chartSpeed.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            this.chartSpeed.Legends.Add(legend6);
             this.chartSpeed.Location = new System.Drawing.Point(0, 249);
             this.chartSpeed.Name = "chartSpeed";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.IsValueShownAsLabel = true;
-            series2.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            series2.LabelBorderWidth = 2;
-            series2.Legend = "Legend1";
-            series2.LegendText = "Speed mph";
-            series2.Name = "Speed";
-            this.chartSpeed.Series.Add(series2);
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series6.IsValueShownAsLabel = true;
+            series6.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            series6.LabelBorderWidth = 2;
+            series6.Legend = "Legend1";
+            series6.LegendText = "Speed mph";
+            series6.Name = "Speed";
+            this.chartSpeed.Series.Add(series6);
             this.chartSpeed.Size = new System.Drawing.Size(412, 262);
             this.chartSpeed.TabIndex = 8;
             this.chartSpeed.Text = "chartSpeed";
             this.chartSpeed.Visible = false;
-            // 
-            // panLoad
-            // 
-            this.panLoad.Controls.Add(this.pbLoading);
-            this.panLoad.Controls.Add(this.lblLoading);
-            this.panLoad.Location = new System.Drawing.Point(219, 185);
-            this.panLoad.Name = "panLoad";
-            this.panLoad.Size = new System.Drawing.Size(468, 58);
-            this.panLoad.TabIndex = 7;
-            // 
-            // pbLoading
-            // 
-            this.pbLoading.ForeColor = System.Drawing.Color.MediumBlue;
-            this.pbLoading.Location = new System.Drawing.Point(18, 24);
-            this.pbLoading.Name = "pbLoading";
-            this.pbLoading.Size = new System.Drawing.Size(426, 23);
-            this.pbLoading.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.pbLoading.TabIndex = 5;
-            // 
-            // lblLoading
-            // 
-            this.lblLoading.AutoSize = true;
-            this.lblLoading.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lblLoading.Location = new System.Drawing.Point(18, 5);
-            this.lblLoading.Name = "lblLoading";
-            this.lblLoading.Size = new System.Drawing.Size(97, 13);
-            this.lblLoading.TabIndex = 6;
-            this.lblLoading.Text = "Loading statistics...";
             // 
             // panAvgSpeed
             // 
@@ -551,6 +525,45 @@
             this.timerLoading.Enabled = true;
             this.timerLoading.Tick += new System.EventHandler(this.timerLoading_Tick);
             // 
+            // panLoad
+            // 
+            this.panLoad.Controls.Add(this.picStatus);
+            this.panLoad.Controls.Add(this.pbLoading);
+            this.panLoad.Controls.Add(this.lblLoading);
+            this.panLoad.Location = new System.Drawing.Point(198, 185);
+            this.panLoad.Name = "panLoad";
+            this.panLoad.Size = new System.Drawing.Size(468, 68);
+            this.panLoad.TabIndex = 48;
+            // 
+            // picStatus
+            // 
+            this.picStatus.Image = global::System.CPC.App.Properties.Resources.speedometer1;
+            this.picStatus.Location = new System.Drawing.Point(206, 3);
+            this.picStatus.Name = "picStatus";
+            this.picStatus.Size = new System.Drawing.Size(50, 50);
+            this.picStatus.TabIndex = 2;
+            this.picStatus.TabStop = false;
+            // 
+            // pbLoading
+            // 
+            this.pbLoading.ForeColor = System.Drawing.Color.MediumBlue;
+            this.pbLoading.Location = new System.Drawing.Point(271, 24);
+            this.pbLoading.Name = "pbLoading";
+            this.pbLoading.Size = new System.Drawing.Size(173, 23);
+            this.pbLoading.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbLoading.TabIndex = 5;
+            this.pbLoading.Visible = false;
+            // 
+            // lblLoading
+            // 
+            this.lblLoading.AutoSize = true;
+            this.lblLoading.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.lblLoading.Location = new System.Drawing.Point(190, 50);
+            this.lblLoading.Name = "lblLoading";
+            this.lblLoading.Size = new System.Drawing.Size(97, 13);
+            this.lblLoading.TabIndex = 6;
+            this.lblLoading.Text = "Loading statistics...";
+            // 
             // FrmStatisticsSpeed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -571,8 +584,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvCars)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartCustomSpeed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartSpeed)).EndInit();
-            this.panLoad.ResumeLayout(false);
-            this.panLoad.PerformLayout();
             this.panAvgSpeed.ResumeLayout(false);
             this.panAvgSpeed.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvg)).EndInit();
@@ -581,6 +592,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.picFastestCar)).EndInit();
             this.panTitle.ResumeLayout(false);
             this.panTitle.PerformLayout();
+            this.panLoad.ResumeLayout(false);
+            this.panLoad.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -611,9 +625,6 @@
         private Windows.Forms.Button btnExportSpeed;
         private Windows.Forms.DataVisualization.Charting.Chart chartCustomSpeed;
         private Windows.Forms.DataVisualization.Charting.Chart chartSpeed;
-        private Windows.Forms.Panel panLoad;
-        private Windows.Forms.ProgressBar pbLoading;
-        private Windows.Forms.Label lblLoading;
         private Windows.Forms.Panel panAvgSpeed;
         private Windows.Forms.PictureBox picAvg;
         private Windows.Forms.Label lblAvgValue;
@@ -627,5 +638,9 @@
         private Windows.Forms.Label lblTitle;
         private Windows.Forms.Timer timerLoading;
         private Windows.Forms.ToolTip toolTip;
+        private Windows.Forms.Panel panLoad;
+        private Windows.Forms.PictureBox picStatus;
+        private Windows.Forms.ProgressBar pbLoading;
+        private Windows.Forms.Label lblLoading;
     }
 }

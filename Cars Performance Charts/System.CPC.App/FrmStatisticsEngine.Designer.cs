@@ -29,15 +29,19 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panTitle = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panFields = new System.Windows.Forms.Panel();
+            this.panLoad = new System.Windows.Forms.Panel();
+            this.picStatus = new System.Windows.Forms.PictureBox();
+            this.pbLoading = new System.Windows.Forms.ProgressBar();
+            this.lblLoading = new System.Windows.Forms.Label();
             this.lblTopCustomChart = new System.Windows.Forms.Label();
             this.btnCompare = new System.Windows.Forms.Button();
             this.lblTopEngineChart = new System.Windows.Forms.Label();
@@ -61,9 +65,6 @@
             this.btnExportEngine = new System.Windows.Forms.Button();
             this.chartCustomEngine = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartEngines = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.panLoad = new System.Windows.Forms.Panel();
-            this.pbLoading = new System.Windows.Forms.ProgressBar();
-            this.lblLoading = new System.Windows.Forms.Label();
             this.panAvgEngineSize = new System.Windows.Forms.Panel();
             this.picAvg = new System.Windows.Forms.PictureBox();
             this.lblAvgValue = new System.Windows.Forms.Label();
@@ -77,12 +78,13 @@
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.panTitle.SuspendLayout();
             this.panFields.SuspendLayout();
+            this.panLoad.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).BeginInit();
             this.panSearch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFilter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCars)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartCustomEngine)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartEngines)).BeginInit();
-            this.panLoad.SuspendLayout();
             this.panAvgEngineSize.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvg)).BeginInit();
             this.panBiggestEngine.SuspendLayout();
@@ -114,6 +116,7 @@
             this.panFields.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
+            this.panFields.Controls.Add(this.panLoad);
             this.panFields.Controls.Add(this.lblTopCustomChart);
             this.panFields.Controls.Add(this.btnCompare);
             this.panFields.Controls.Add(this.lblTopEngineChart);
@@ -132,13 +135,51 @@
             this.panFields.Controls.Add(this.btnExportEngine);
             this.panFields.Controls.Add(this.chartCustomEngine);
             this.panFields.Controls.Add(this.chartEngines);
-            this.panFields.Controls.Add(this.panLoad);
             this.panFields.Controls.Add(this.panAvgEngineSize);
             this.panFields.Controls.Add(this.panBiggestEngine);
             this.panFields.Location = new System.Drawing.Point(201, 103);
             this.panFields.Name = "panFields";
             this.panFields.Size = new System.Drawing.Size(863, 535);
             this.panFields.TabIndex = 3;
+            // 
+            // panLoad
+            // 
+            this.panLoad.Controls.Add(this.picStatus);
+            this.panLoad.Controls.Add(this.pbLoading);
+            this.panLoad.Controls.Add(this.lblLoading);
+            this.panLoad.Location = new System.Drawing.Point(199, 178);
+            this.panLoad.Name = "panLoad";
+            this.panLoad.Size = new System.Drawing.Size(468, 68);
+            this.panLoad.TabIndex = 48;
+            // 
+            // picStatus
+            // 
+            this.picStatus.Image = global::System.CPC.App.Properties.Resources.speedometer1;
+            this.picStatus.Location = new System.Drawing.Point(206, 3);
+            this.picStatus.Name = "picStatus";
+            this.picStatus.Size = new System.Drawing.Size(50, 50);
+            this.picStatus.TabIndex = 2;
+            this.picStatus.TabStop = false;
+            // 
+            // pbLoading
+            // 
+            this.pbLoading.ForeColor = System.Drawing.Color.MediumBlue;
+            this.pbLoading.Location = new System.Drawing.Point(271, 24);
+            this.pbLoading.Name = "pbLoading";
+            this.pbLoading.Size = new System.Drawing.Size(173, 23);
+            this.pbLoading.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
+            this.pbLoading.TabIndex = 5;
+            this.pbLoading.Visible = false;
+            // 
+            // lblLoading
+            // 
+            this.lblLoading.AutoSize = true;
+            this.lblLoading.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.lblLoading.Location = new System.Drawing.Point(190, 50);
+            this.lblLoading.Name = "lblLoading";
+            this.lblLoading.Size = new System.Drawing.Size(97, 13);
+            this.lblLoading.TabIndex = 6;
+            this.lblLoading.Text = "Loading statistics...";
             // 
             // lblTopCustomChart
             // 
@@ -380,22 +421,22 @@
             // 
             // chartCustomEngine
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartCustomEngine.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartCustomEngine.Legends.Add(legend1);
+            chartArea3.Name = "ChartArea1";
+            this.chartCustomEngine.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartCustomEngine.Legends.Add(legend3);
             this.chartCustomEngine.Location = new System.Drawing.Point(451, 249);
             this.chartCustomEngine.Name = "chartCustomEngine";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Color = System.Drawing.Color.Red;
-            series1.IsValueShownAsLabel = true;
-            series1.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            series1.LabelBorderWidth = 2;
-            series1.Legend = "Legend1";
-            series1.LegendText = "Size CC";
-            series1.Name = "Size";
-            this.chartCustomEngine.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Color = System.Drawing.Color.Red;
+            series3.IsValueShownAsLabel = true;
+            series3.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            series3.LabelBorderWidth = 2;
+            series3.Legend = "Legend1";
+            series3.LegendText = "Size CC";
+            series3.Name = "Size";
+            this.chartCustomEngine.Series.Add(series3);
             this.chartCustomEngine.Size = new System.Drawing.Size(412, 262);
             this.chartCustomEngine.TabIndex = 9;
             this.chartCustomEngine.Text = "chartCustomEngine";
@@ -403,53 +444,25 @@
             // 
             // chartEngines
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartEngines.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartEngines.Legends.Add(legend2);
+            chartArea4.Name = "ChartArea1";
+            this.chartEngines.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chartEngines.Legends.Add(legend4);
             this.chartEngines.Location = new System.Drawing.Point(0, 249);
             this.chartEngines.Name = "chartEngines";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.IsValueShownAsLabel = true;
-            series2.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            series2.LabelBorderWidth = 2;
-            series2.Legend = "Legend1";
-            series2.LegendText = "Size CC";
-            series2.Name = "Size";
-            this.chartEngines.Series.Add(series2);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.IsValueShownAsLabel = true;
+            series4.LabelBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            series4.LabelBorderWidth = 2;
+            series4.Legend = "Legend1";
+            series4.LegendText = "Size CC";
+            series4.Name = "Size";
+            this.chartEngines.Series.Add(series4);
             this.chartEngines.Size = new System.Drawing.Size(412, 262);
             this.chartEngines.TabIndex = 8;
             this.chartEngines.Text = "chartEngine";
             this.chartEngines.Visible = false;
-            // 
-            // panLoad
-            // 
-            this.panLoad.Controls.Add(this.pbLoading);
-            this.panLoad.Controls.Add(this.lblLoading);
-            this.panLoad.Location = new System.Drawing.Point(219, 185);
-            this.panLoad.Name = "panLoad";
-            this.panLoad.Size = new System.Drawing.Size(468, 58);
-            this.panLoad.TabIndex = 7;
-            // 
-            // pbLoading
-            // 
-            this.pbLoading.ForeColor = System.Drawing.Color.MediumBlue;
-            this.pbLoading.Location = new System.Drawing.Point(18, 24);
-            this.pbLoading.Name = "pbLoading";
-            this.pbLoading.Size = new System.Drawing.Size(426, 23);
-            this.pbLoading.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.pbLoading.TabIndex = 5;
-            // 
-            // lblLoading
-            // 
-            this.lblLoading.AutoSize = true;
-            this.lblLoading.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.lblLoading.Location = new System.Drawing.Point(18, 5);
-            this.lblLoading.Name = "lblLoading";
-            this.lblLoading.Size = new System.Drawing.Size(97, 13);
-            this.lblLoading.TabIndex = 6;
-            this.lblLoading.Text = "Loading statistics...";
             // 
             // panAvgEngineSize
             // 
@@ -568,14 +581,15 @@
             this.panTitle.PerformLayout();
             this.panFields.ResumeLayout(false);
             this.panFields.PerformLayout();
+            this.panLoad.ResumeLayout(false);
+            this.panLoad.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picStatus)).EndInit();
             this.panSearch.ResumeLayout(false);
             this.panSearch.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFilter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCars)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartCustomEngine)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartEngines)).EndInit();
-            this.panLoad.ResumeLayout(false);
-            this.panLoad.PerformLayout();
             this.panAvgEngineSize.ResumeLayout(false);
             this.panAvgEngineSize.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvg)).EndInit();
@@ -595,9 +609,6 @@
         private Windows.Forms.Button btnExportEngine;
         private Windows.Forms.DataVisualization.Charting.Chart chartCustomEngine;
         private Windows.Forms.DataVisualization.Charting.Chart chartEngines;
-        private Windows.Forms.Panel panLoad;
-        private Windows.Forms.ProgressBar pbLoading;
-        private Windows.Forms.Label lblLoading;
         private Windows.Forms.Panel panAvgEngineSize;
         private Windows.Forms.PictureBox picAvg;
         private Windows.Forms.Panel panBiggestEngine;
@@ -628,5 +639,9 @@
         private Windows.Forms.Label lblTopEngineChart;
         private Windows.Forms.Button btnCompare;
         private Windows.Forms.Label lblTopCustomChart;
+        private Windows.Forms.Panel panLoad;
+        private Windows.Forms.PictureBox picStatus;
+        private Windows.Forms.ProgressBar pbLoading;
+        private Windows.Forms.Label lblLoading;
     }
 }

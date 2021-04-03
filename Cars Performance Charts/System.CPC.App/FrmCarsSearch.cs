@@ -18,7 +18,7 @@ using System.Globalization;
 /*
  * CPC / App / FrmCarsSearch
  * @author MRX
- * Version : 1.0.0
+ * Version : 1.0.1
  */ 
 
 namespace System.CPC.App
