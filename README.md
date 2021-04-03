@@ -18,7 +18,7 @@
 
 <h2>Deployment</h2>
 
-<p>Download <a href="https://github.com/MrX456/Cars_Performance_Charts/blob/main/_Deployment/cars_performance_charts_installer_1.0.1.msi">here</a></p>
+<p>Download <a href="https://github.com/MrX456/Cars_Performance_Charts/raw/main/_Deployment/cars_performance_charts_installer_1.0.1.msi">here</a></p>
 
 
 <p align="center">Powered By MrX.</p>
