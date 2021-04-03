@@ -7,7 +7,7 @@
 <h2>About</h2>
 
 <p>Register cars and compare specs with various charts.</p>
-<p>Version : 1.0.0</p>
+<p>Version : 1.0.1</p>
 <p>Developed By : MrX</p>
 
 
@@ -18,7 +18,7 @@
 
 <h2>Deployment</h2>
 
-<p>Download <a href="https://github.com/MrX456/Cars_Performance_Charts/raw/main/_Deployment/cars_perfomance_charts_install.msi">here</a></p>
+<p>Download <a href="https://github.com/MrX456/Cars_Performance_Charts/raw/main/_Deployment/cars_perfomance_charts_installer_1.0.1.msi">here</a></p>
 
 
 <p align="center">Powered By MrX.</p>
